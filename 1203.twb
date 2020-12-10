@@ -1,0 +1,2139 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='臺南市(2019070511363933755)' inline='true' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2019070511363933755' name='excel-direct.17wxt160rdf6dd1aq1n890fdzufg'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/NUTN/Downloads/2019070511363933755.xls' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.17wxt160rdf6dd1aq1n890fdzufg' name='臺南市' table='[臺南市$]' type='table'>
+          <columns gridOrigin='A1:S28:no:A1:S28:4' header='yes' lost='0' outcome='1' processed='219'>
+            <column datatype='integer' name='順 位' ordinal='0' />
+            <column datatype='string' name='ICD-10 國際死因 分類號碼' ordinal='1' />
+            <column datatype='string' name='合            計 死   亡   原   因' ordinal='2' />
+            <column datatype='integer' name='死亡 人數' ordinal='3' />
+            <column datatype='real' name='每十萬人口 死亡率' ordinal='4' />
+            <column datatype='real' name='每十萬人口 標準化 死亡率' ordinal='5' />
+            <column datatype='real' name='死亡人數 結構比 %' ordinal='6' />
+            <column datatype='string' name='ICD-10 國際死因 分類號碼 1' ordinal='7' />
+            <column datatype='string' name='男            性 死   亡   原   因' ordinal='8' />
+            <column datatype='integer' name='死亡 人數 1' ordinal='9' />
+            <column datatype='real' name='每十萬人口 死亡率 1' ordinal='10' />
+            <column datatype='real' name='每十萬人口 標準化 死亡率 1' ordinal='11' />
+            <column datatype='real' name='死亡人數 結構比 % 1' ordinal='12' />
+            <column datatype='string' name='ICD-10 國際死因 分類號碼 2' ordinal='13' />
+            <column datatype='string' name='女            性 死   亡   原   因' ordinal='14' />
+            <column datatype='integer' name='死亡 人數 2' ordinal='15' />
+            <column datatype='real' name='每十萬人口 死亡率 2' ordinal='16' />
+            <column datatype='real' name='每十萬人口 標準化 死亡率 2' ordinal='17' />
+            <column datatype='real' name='死亡人數 結構比 % 2' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.17wxt160rdf6dd1aq1n890fdzufg' name='臺南市' table='[臺南市$]' type='table'>
+          <columns gridOrigin='A1:S28:no:A1:S28:4' header='yes' lost='0' outcome='1' processed='219'>
+            <column datatype='integer' name='順 位' ordinal='0' />
+            <column datatype='string' name='ICD-10 國際死因 分類號碼' ordinal='1' />
+            <column datatype='string' name='合            計 死   亡   原   因' ordinal='2' />
+            <column datatype='integer' name='死亡 人數' ordinal='3' />
+            <column datatype='real' name='每十萬人口 死亡率' ordinal='4' />
+            <column datatype='real' name='每十萬人口 標準化 死亡率' ordinal='5' />
+            <column datatype='real' name='死亡人數 結構比 %' ordinal='6' />
+            <column datatype='string' name='ICD-10 國際死因 分類號碼 1' ordinal='7' />
+            <column datatype='string' name='男            性 死   亡   原   因' ordinal='8' />
+            <column datatype='integer' name='死亡 人數 1' ordinal='9' />
+            <column datatype='real' name='每十萬人口 死亡率 1' ordinal='10' />
+            <column datatype='real' name='每十萬人口 標準化 死亡率 1' ordinal='11' />
+            <column datatype='real' name='死亡人數 結構比 % 1' ordinal='12' />
+            <column datatype='string' name='ICD-10 國際死因 分類號碼 2' ordinal='13' />
+            <column datatype='string' name='女            性 死   亡   原   因' ordinal='14' />
+            <column datatype='integer' name='死亡 人數 2' ordinal='15' />
+            <column datatype='real' name='每十萬人口 死亡率 2' ordinal='16' />
+            <column datatype='real' name='每十萬人口 標準化 死亡率 2' ordinal='17' />
+            <column datatype='real' name='死亡人數 結構比 % 2' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S28:no:A1:S28:4&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>219</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>順 位</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[順 位]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>順 位</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ICD-10 國際死因 分類號碼</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ICD-10 國際死因 分類號碼]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>ICD-10 國際死因 分類號碼</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>合            計 死   亡   原   因</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[合            計 死   亡   原   因]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>合            計 死   亡   原   因</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>死亡 人數</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[死亡 人數]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>死亡 人數</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>每十萬人口 死亡率</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[每十萬人口 死亡率]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>每十萬人口 死亡率</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>每十萬人口 標準化 死亡率</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[每十萬人口 標準化 死亡率]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>每十萬人口 標準化 死亡率</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>死亡人數 結構比 %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[死亡人數 結構比 %]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>死亡人數 結構比 %</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ICD-10 國際死因 分類號碼 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ICD-10 國際死因 分類號碼 1]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>ICD-10 國際死因 分類號碼 1</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>男            性 死   亡   原   因</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[男            性 死   亡   原   因]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>男            性 死   亡   原   因</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>死亡 人數 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[死亡 人數 1]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>死亡 人數 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>每十萬人口 死亡率 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[每十萬人口 死亡率 1]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>每十萬人口 死亡率 1</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>每十萬人口 標準化 死亡率 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[每十萬人口 標準化 死亡率 1]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>每十萬人口 標準化 死亡率 1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>死亡人數 結構比 % 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[死亡人數 結構比 % 1]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>死亡人數 結構比 % 1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ICD-10 國際死因 分類號碼 2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ICD-10 國際死因 分類號碼 2]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>ICD-10 國際死因 分類號碼 2</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>女            性 死   亡   原   因</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[女            性 死   亡   原   因]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>女            性 死   亡   原   因</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>死亡 人數 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[死亡 人數 2]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>死亡 人數 2</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>每十萬人口 死亡率 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[每十萬人口 死亡率 2]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>每十萬人口 死亡率 2</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>每十萬人口 標準化 死亡率 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[每十萬人口 標準化 死亡率 2]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>每十萬人口 標準化 死亡率 2</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>死亡人數 結構比 % 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[死亡人數 結構比 % 2]</local-name>
+            <parent-name>[臺南市]</parent-name>
+            <remote-alias>死亡人數 結構比 % 2</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[臺南市_CFA85748689441EEB1F772E7D9BE42B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='臺南市' datatype='table' name='[__tableau_internal_object_id__].[臺南市_CFA85748689441EEB1F772E7D9BE42B3]' role='measure' type='quantitative' />
+      <column caption='合計死亡原因' datatype='string' name='[合            計 死   亡   原   因]' role='dimension' type='nominal' />
+      <column caption='女性死亡原因' datatype='string' name='[女            性 死   亡   原   因]' role='dimension' type='nominal' />
+      <column caption='男性死亡人數 ' datatype='integer' name='[死亡 人數 1]' role='measure' type='quantitative' />
+      <column caption='女性死亡人數' datatype='integer' name='[死亡 人數 2]' role='measure' type='quantitative' />
+      <column caption='男性死亡人數 結構比 % ' datatype='real' name='[死亡人數 結構比 % 1]' role='measure' type='quantitative' />
+      <column caption='女性死亡人數 結構比 % ' datatype='real' name='[死亡人數 結構比 % 2]' role='measure' type='quantitative' />
+      <column caption='每十萬人口 標準化男性死亡率' datatype='real' name='[每十萬人口 標準化 死亡率 1]' role='measure' type='quantitative' />
+      <column caption='每十萬人口 標準化女性死亡率' datatype='real' name='[每十萬人口 標準化 死亡率 2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[每十萬人口 標準化 死亡率]' role='measure' type='quantitative' />
+      <column caption='每十萬人口男性死亡率' datatype='real' name='[每十萬人口 死亡率 1]' role='measure' type='quantitative' />
+      <column caption='每十萬人口女性死亡率' datatype='real' name='[每十萬人口 死亡率 2]' role='measure' type='quantitative' />
+      <column caption='男性死亡原因' datatype='string' name='[男            性 死   亡   原   因]' role='dimension' type='nominal' />
+      <column-instance column='[合            計 死   亡   原   因]' derivation='None' name='[none:合            計 死   亡   原   因:nk]' pivot='key' type='nominal' />
+      <column-instance column='[女            性 死   亡   原   因]' derivation='None' name='[none:女            性 死   亡   原   因:nk]' pivot='key' type='nominal' />
+      <column-instance column='[男            性 死   亡   原   因]' derivation='None' name='[none:男            性 死   亡   原   因:nk]' pivot='key' type='nominal' />
+      <column-instance column='[死亡 人數 1]' derivation='Sum' name='[sum:死亡 人數 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[死亡 人數 2]' derivation='Sum' name='[sum:死亡 人數 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[每十萬人口 標準化 死亡率 1]' derivation='Sum' name='[sum:每十萬人口 標準化 死亡率 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[每十萬人口 標準化 死亡率 2]' derivation='Sum' name='[sum:每十萬人口 標準化 死亡率 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[每十萬人口 標準化 死亡率]' derivation='Sum' name='[sum:每十萬人口 標準化 死亡率:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[每十萬人口 死亡率 1]' derivation='Sum' name='[sum:每十萬人口 死亡率 1:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:男            性 死   亡   原   因:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;敗血症&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;心臟疾病（高血壓性疾病除外）&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;肺炎&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;慢性下呼吸道疾病&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;惡性腫瘤&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;原位與良性腫瘤（惡性腫瘤除外）&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;血管性及未明示之癡呆症&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;衰老/老邁&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;慢性肝病及肝硬化&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;蓄意自我傷害（自殺）&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;腎炎、腎病症候群及腎病變&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;高血壓性疾病&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;事故傷害&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;糖尿病&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;腦血管疾病&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;其他&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:女            性 死   亡   原   因:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;敗血症&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;心臟疾病（高血壓性疾病除外）&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;所有死亡原因&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;肺炎&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;慢性下呼吸道疾病&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;惡性腫瘤&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;原位與良性腫瘤（惡性腫瘤除外）&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;血管性及未明示之癡呆症&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;衰老/老邁&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;慢性肝病及肝硬化&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;蓄意自我傷害（自殺）&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;腎炎、腎病症候群及腎病變&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;高血壓性疾病&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;事故傷害&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;糖尿病&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;腦血管疾病&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;其他&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:合            計 死   亡   原   因:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;敗血症&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;心臟疾病（高血壓性疾病除外）&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;所有死亡原因&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;肺炎&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;慢性下呼吸道疾病&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;惡性腫瘤&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;原位與良性腫瘤（惡性腫瘤除外）&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;血管性及未明示之癡呆症&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;衰老/老邁&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;慢性肝病及肝硬化&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;蓄意自我傷害（自殺）&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;腎炎、腎病症候群及腎病變&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;高血壓性疾病&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;事故傷害&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;糖尿病&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;腦血管疾病&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;其他&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 1:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率 1:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 死亡率 1:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 2:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率 2:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Taiwan&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='臺南市' id='臺南市_CFA85748689441EEB1F772E7D9BE42B3'>
+            <properties context=''>
+              <relation connection='excel-direct.17wxt160rdf6dd1aq1n890fdzufg' name='臺南市' table='[臺南市$]' type='table'>
+                <columns gridOrigin='A1:S28:no:A1:S28:4' header='yes' lost='0' outcome='1' processed='219'>
+                  <column datatype='integer' name='順 位' ordinal='0' />
+                  <column datatype='string' name='ICD-10 國際死因 分類號碼' ordinal='1' />
+                  <column datatype='string' name='合            計 死   亡   原   因' ordinal='2' />
+                  <column datatype='integer' name='死亡 人數' ordinal='3' />
+                  <column datatype='real' name='每十萬人口 死亡率' ordinal='4' />
+                  <column datatype='real' name='每十萬人口 標準化 死亡率' ordinal='5' />
+                  <column datatype='real' name='死亡人數 結構比 %' ordinal='6' />
+                  <column datatype='string' name='ICD-10 國際死因 分類號碼 1' ordinal='7' />
+                  <column datatype='string' name='男            性 死   亡   原   因' ordinal='8' />
+                  <column datatype='integer' name='死亡 人數 1' ordinal='9' />
+                  <column datatype='real' name='每十萬人口 死亡率 1' ordinal='10' />
+                  <column datatype='real' name='每十萬人口 標準化 死亡率 1' ordinal='11' />
+                  <column datatype='real' name='死亡人數 結構比 % 1' ordinal='12' />
+                  <column datatype='string' name='ICD-10 國際死因 分類號碼 2' ordinal='13' />
+                  <column datatype='string' name='女            性 死   亡   原   因' ordinal='14' />
+                  <column datatype='integer' name='死亡 人數 2' ordinal='15' />
+                  <column datatype='real' name='每十萬人口 死亡率 2' ordinal='16' />
+                  <column datatype='real' name='每十萬人口 標準化 死亡率 2' ordinal='17' />
+                  <column datatype='real' name='死亡人數 結構比 % 2' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='107年臺南市女性每十萬人死亡率分類'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[女            性 死   亡   原   因]' derivation='None' name='[none:女            性 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[每十萬人口 死亡率 2]' derivation='Sum' name='[sum:每十萬人口 死亡率 2:qk]' pivot='key' type='quantitative' />
+            <column caption='女性死亡原因' datatype='string' name='[女            性 死   亡   原   因]' role='dimension' type='nominal' />
+            <column caption='每十萬人口女性死亡率' datatype='real' name='[每十萬人口 死亡率 2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:女            性 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:女            性 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 死亡率 2:qk]</rows>
+        <cols>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]</cols>
+      </table>
+      <simple-id uuid='{FDF7BD9E-17D9-4D3A-A4AB-166B3E7669DB}' />
+    </worksheet>
+    <worksheet name='107年臺南市每十萬人總死亡率分類'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[合            計 死   亡   原   因]' derivation='None' name='[none:合            計 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[每十萬人口 死亡率]' derivation='Sum' name='[sum:每十萬人口 死亡率:qk]' pivot='key' type='quantitative' />
+            <column caption='合計死亡原因' datatype='string' name='[合            計 死   亡   原   因]' role='dimension' type='nominal' />
+            <column datatype='real' name='[每十萬人口 死亡率]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:合            計 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:合            計 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 死亡率:qk]</rows>
+        <cols>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</cols>
+      </table>
+      <simple-id uuid='{B3D9683B-49A1-46BE-803E-5E09D9CDAC19}' />
+    </worksheet>
+    <worksheet name='107年臺南市男性每十萬人死亡率分類'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[男            性 死   亡   原   因]' derivation='None' name='[none:男            性 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[每十萬人口 死亡率 1]' derivation='Sum' name='[sum:每十萬人口 死亡率 1:qk]' pivot='key' type='quantitative' />
+            <column caption='每十萬人口男性死亡率' datatype='real' name='[每十萬人口 死亡率 1]' role='measure' type='quantitative' />
+            <column caption='男性死亡原因' datatype='string' name='[男            性 死   亡   原   因]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:男            性 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:男            性 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 死亡率 1:qk]</rows>
+        <cols>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]</cols>
+      </table>
+      <simple-id uuid='{26ED6521-CC97-4B68-8C80-74B2949B88CF}' />
+    </worksheet>
+    <worksheet name='台南市男女死亡人數比較'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[合            計 死   亡   原   因]' derivation='None' name='[none:合            計 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[死亡 人數 1]' derivation='Sum' name='[sum:死亡 人數 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[死亡 人數 2]' derivation='Sum' name='[sum:死亡 人數 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[每十萬人口 標準化 死亡率 1]' derivation='Sum' name='[sum:每十萬人口 標準化 死亡率 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[每十萬人口 標準化 死亡率 2]' derivation='Sum' name='[sum:每十萬人口 標準化 死亡率 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[每十萬人口 標準化 死亡率]' derivation='Sum' name='[sum:每十萬人口 標準化 死亡率:qk]' pivot='key' type='quantitative' />
+            <column caption='合計死亡原因' datatype='string' name='[合            計 死   亡   原   因]' role='dimension' type='nominal' />
+            <column caption='男性死亡人數 ' datatype='integer' name='[死亡 人數 1]' role='measure' type='quantitative' />
+            <column caption='女性死亡人數' datatype='integer' name='[死亡 人數 2]' role='measure' type='quantitative' />
+            <column caption='每十萬人口 標準化男性死亡率' datatype='real' name='[每十萬人口 標準化 死亡率 1]' role='measure' type='quantitative' />
+            <column caption='每十萬人口 標準化女性死亡率' datatype='real' name='[每十萬人口 標準化 死亡率 2]' role='measure' type='quantitative' />
+            <column datatype='real' name='[每十萬人口 標準化 死亡率]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率 2:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:合            計 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:合            計 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</column>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率 1:qk]' num-steps='7' palette='red_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率:qk]' num-steps='7' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[Multiple Values]</rows>
+        <cols>([federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk] / [federated.1gx3cds1t9tg7611srh7b0p22sfb].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{5552A9A8-CB2F-4816-A50B-AAC5FF2B5807}' />
+    </worksheet>
+    <worksheet name='女性死亡人數圓餅圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[女            性 死   亡   原   因]' derivation='None' name='[none:女            性 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[死亡 人數 2]' derivation='Sum' name='[sum:死亡 人數 2:qk]' pivot='key' type='quantitative' />
+            <column caption='女性死亡原因' datatype='string' name='[女            性 死   亡   原   因]' role='dimension' type='nominal' />
+            <column caption='女性死亡人數' datatype='integer' name='[死亡 人數 2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:女            性 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:女            性 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]' />
+              <wedge-size column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 2:qk]' />
+              <size column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 2:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{09B7EEBE-3E4F-4E16-9E2A-D3B07F8E0E74}' />
+    </worksheet>
+    <worksheet name='男性死亡人數圓餅圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[男            性 死   亡   原   因]' derivation='None' name='[none:男            性 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[死亡 人數 1]' derivation='Sum' name='[sum:死亡 人數 1:qk]' pivot='key' type='quantitative' />
+            <column caption='男性死亡人數 ' datatype='integer' name='[死亡 人數 1]' role='measure' type='quantitative' />
+            <column caption='男性死亡原因' datatype='string' name='[男            性 死   亡   原   因]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:男            性 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:男            性 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]' />
+              <wedge-size column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F314F0F4-D0F0-457C-948F-977DBAB4174A}' />
+    </worksheet>
+    <worksheet name='總死亡人數圓餅圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='臺南市(2019070511363933755)' name='federated.1gx3cds1t9tg7611srh7b0p22sfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gx3cds1t9tg7611srh7b0p22sfb'>
+            <column-instance column='[合            計 死   亡   原   因]' derivation='None' name='[none:合            計 死   亡   原   因:nk]' pivot='key' type='nominal' />
+            <column-instance column='[死亡 人數]' derivation='Sum' name='[sum:死亡 人數:qk]' pivot='key' type='quantitative' />
+            <column caption='合計死亡原因' datatype='string' name='[合            計 死   亡   原   因]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[死亡 人數]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;心臟疾病（高血壓性疾病除外）&quot;' function='range' level='[none:合            計 死   亡   原   因:nk]' to='&quot;其他&quot;' />
+              <groupfilter from='&quot;肺炎&quot;' function='range' level='[none:合            計 死   亡   原   因:nk]' to='&quot;糖尿病&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]' />
+              <wedge-size column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數:qk]' />
+              <size column='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.4172928333282471' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BA9492AF-BADE-4DE7-BD4A-DC4C907DD3DB}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='107年臺南市男性每十萬人死亡率分類'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C8C2C90A-B40E-4386-8A98-3B855323F62B}' />
+    </window>
+    <window class='worksheet' name='107年臺南市女性每十萬人死亡率分類'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{997763AA-DC2F-44C8-955A-CD234252996A}' />
+    </window>
+    <window class='worksheet' name='107年臺南市每十萬人總死亡率分類'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{691A1F9D-8452-4AE7-A2E6-9C33A13BE29C}' />
+    </window>
+    <window class='worksheet' name='男性死亡人數圓餅圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</field>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:男            性 死   亡   原   因:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{259BBB21-8B36-4265-A017-CB4E781B3490}' />
+    </window>
+    <window class='worksheet' name='女性死亡人數圓餅圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數 2:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:女            性 死   亡   原   因:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3AF01B22-3BB8-4299-BB2F-88E1BA6832EF}' />
+    </window>
+    <window class='worksheet' name='總死亡人數圓餅圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡 人數:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{28AABBA8-41D8-4BC8-991A-70C4B621D48A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='台南市男女死亡人數比較'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[none:合            計 死   亡   原   因:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1gx3cds1t9tg7611srh7b0p22sfb].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:死亡人數 結構比 %:qk]</field>
+            <field>[federated.1gx3cds1t9tg7611srh7b0p22sfb].[sum:每十萬人口 標準化 死亡率:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4A26ADE1-033F-4830-8BF0-DF51EA83B0A1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='107年臺南市女性每十萬人死亡率分類' width='192'>
+      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
+      kQcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='107年臺南市每十萬人總死亡率分類' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='107年臺南市男性每十萬人死亡率分類' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='台南市男女死亡人數比較' width='192'>
+      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
+      OafGUAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='164' name='女性死亡人數圓餅圖' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='男性死亡人數圓餅圖' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='總死亡人數圓餅圖' width='164'>
+      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
+      uPKKwXqGAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
